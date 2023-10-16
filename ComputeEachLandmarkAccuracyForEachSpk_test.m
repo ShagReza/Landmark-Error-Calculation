@@ -20,7 +20,7 @@
 %--------------------------------------------------------------------------l
 clc,clear all,close all
 NetOutputFile='Net_1298.txt.HLast';
-LandmarkPath='D:\ShaghayeghUni\AfterPropozal\Step1-EventLandmark\Programs\MyPrograms\EventExtraction\Landmarks\Landmarks1298.mat';
+LandmarkPath='D:\Step1-EventLandmark\Programs\MyPrograms\EventExtraction\Landmarks\Landmarks1298.mat';
 load(LandmarkPath);
 GoldLandmarks=Landmarks.EventStateTag_LandmarksType3;
 load('LandmarkType3_Events.mat');
